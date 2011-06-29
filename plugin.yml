@@ -1,0 +1,27 @@
+name: MyWordfilter
+main: xhizors.MyWordfilter.MyWordfilter
+version: 0.1
+description: >
+             Filter words with this plugin
+commands:
+  wordfiltertoggle:
+    description: Toggle Wordfiter
+    permission: wordfilter.toggle
+  wordfilteroptoggle:
+    description: Toggle Wordfiter for ops
+    permission: wordfilter.toggleOp
+  wordfilteradd:
+    description: Add a new word to the Wordfilter
+    permission: wordfilter.add
+  wordfilterremove:
+    description: Remove a word from the Wordfilters
+    permission: wordfilter.remove
+  wordfilterreload:
+    description: Reload file
+    permission: wordfilter.reload
+  wordfilterlist:
+    description: List wordfilters
+    permission: wordfilter.list
+  wordfilterclear:
+    description: Clear wordfilters
+    permission: wordfilter.clear
