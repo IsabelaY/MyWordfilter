@@ -1,6 +1,6 @@
 name: MyWordfilter
 main: xhizors.MyWordfilter.MyWordfilter
-version: 0.1
+version: 1.0
 description: >
              Filter words with this plugin
 commands:

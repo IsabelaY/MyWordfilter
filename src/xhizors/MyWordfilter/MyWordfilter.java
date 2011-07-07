@@ -42,7 +42,6 @@ public class MyWordfilter extends JavaPlugin {
 	}
 	
 	public String filterMessage(String msg, Player ply) {
-		//return msg.replaceAll("(&([a-f0-9]))", "\u00A7$2");
 		for (String key : filter.keySet()) {
 			String c = "";
 			if (filter.get(key).contains("&r")) {
