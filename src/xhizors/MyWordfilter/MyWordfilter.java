@@ -21,7 +21,7 @@ public class MyWordfilter extends JavaPlugin {
 	private PluginManager pm;
 	public static final Logger log = Logger.getLogger("Minecraft");
 	public static String pluginName;
-	public boolean permissionsEnabled = false;
+	public boolean permissionsEnabled = true;
 	public PermissionHandler permissions = null;
 	public ConcurrentHashMap<String, String> filter = new ConcurrentHashMap<String, String>();
 	
